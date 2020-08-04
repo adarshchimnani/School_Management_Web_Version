@@ -1,0 +1,242 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background: url('emp_background.jpg');
+		background-position:center;
+		background-size: cover;
+		font-family: arial;
+	
+	}
+	.regform{
+		width: 600px;
+		background-color:rgb(0,0,0,0.6);
+		
+		margin: auto;
+		color: #FFFFFF;
+		padding:10px 0px 10px 0px;
+		text-align:center;
+		border-radius: 15px 15px 0px 0px;
+	}    
+	.main{
+			background-color:rgb(0,0,0,0.5);
+			width: 600px;
+			margin:auto;
+	}
+	form{
+		padding:5px;
+	}
+	#name{
+	width:100%;
+	height:100px;
+	}
+	
+	.name-l
+	{
+		margin-left:30px;
+		top: -20px;
+		color:white;
+		font-size:18px;
+		font-weight:700;
+		
+	}
+	
+	
+	.name{
+		margin-left:25px;
+		margin-top:10px;
+		top:-25px;
+		width:100px;
+		color:white;
+		font-size:18px;
+		font-weight:700;
+	}
+	.firstname{
+	   position:relative;
+	   left:125px;
+	   top:-20px;
+	   line-height:35px;
+	   border-radius:6px;
+	   padding:0 10px;
+	   font-size:16px;
+	}
+	.lastname{
+	   position:relative;
+	   left:350px;
+	   top:-78px;
+	   line-height:35px;
+	   border-radius:3px;
+	   padding: 0 10px;
+	   font-size:16px;
+	   color"#555;
+	}
+	.firstlabel{ 
+	position:relative;
+	color:#E5E5E5;
+	text-transform:capitalize;
+	font-size:14px;
+	left:128px;
+	top:-20px;
+	}
+	.lastlabel{
+	position:relative;
+	color:#E5E5E5;
+	text-transform:capitalize;
+	font-size:14px;
+	left:350px;
+	top:-78px;
+	} 
+	.gender{
+	position:relative;
+	   left:10px;
+	   top:-88px;
+	   line-height:60px;
+	   border-radius:10px;
+	   padding: 0 22px;
+	   font-size:14px;
+	   color:white;
+	   font-weight:700;
+
+	}
+	.join_date{
+	  position:relative;
+	   left:150px;
+	   top:-149px;
+	   line-height:60px;
+	   border-radius:6px;
+	   padding: 0 22px;
+	   font-size:14px;
+	   font-weight:700;
+	   color:white;
+	
+	}
+	.designation{
+	   position:relative;
+	   left:380px;
+	   top:-225px;
+	   line-height:60px;
+	   border-radius:6px;
+	   padding: 0 22px;
+	   font-size:14px;
+	   color:white;
+	   font-weight:700;
+	
+	}
+	.CNIC{
+		top:-100px;
+		margin-left:30px;
+		margin-top:-200px;
+		width:150px;
+		color:white;
+		font-size:18px;
+		font-weight:700;
+	}
+	.CNIC_1{
+		position: relative;
+		left:150px;
+		top:-28px;
+		line-height:40px;
+		width:200px;
+		border-radius:6px;
+		padding:0 22px;
+		font-size:16px;
+		color:#555;
+	}
+	.Salary-l{
+		top:-200px;
+		margin-left:30px;
+		
+		width:150px;
+		color:white;
+		font-size:18px;
+		font-weight:700;
+	}
+	.salary{
+	 position: relative;
+		left:150px;
+		top:-30px;
+		line-height:40px;
+		width:200px;
+		border-radius:6px;
+		padding:0 22px;
+		font-size:16px;
+		color:#555;
+	}
+	
+	
+	.phone{
+	  position: relative;
+		left:150px;
+		top:-27px;
+		line-height:40px;
+		width:200px;
+		border-radius:6px;
+		padding:0 22px;
+		font-size:16px;
+		color:#555;
+	
+	}
+	
+	.email{
+	  position: relative;
+		left:150px;
+		top:-27px;
+		line-height:40px;
+		width:350px;
+		border-radius:6px;
+		padding:0 17px;
+		font-size:16px;
+		color:#555;
+	
+	}
+	
+	.address{
+	  position: relative;
+		left:150px;
+		top:-27px;
+		line-height:40px;
+		width:350px;
+		border-radius:6px;
+		padding:0 17px;
+		font-size:16px;
+		color:#555;
+	}
+	.confirm{
+			background-color:#3BAF9F;
+			display:block;
+			margin:20px 0px 0px 20px;
+			text-align:center;
+			border-radius:12px;
+			border:2px solid #366473;
+			padding:14px 110px;
+			outline:none;
+			color:white;
+			cursor:pointer;
+			transition:0.25px;
+			
+			
+	}
+	.confirm:hover{
+	background-color:#5390F5;
+	}
+	
+	.cancel
+	{
+		background-color:#3BAF9F;
+			display:block;
+			margin:-46px 0px 0px 300px;
+			text-align:center;
+			border-radius:12px;
+			border:2px solid #366473;
+			padding:14px 110px;
+			outline:none;
+			color:white;
+			cursor:pointer;
+			transition:0.25px;
+			left:50px;
+	}
+	
+	.cancel:hover{
+	background-color:red;
+	}

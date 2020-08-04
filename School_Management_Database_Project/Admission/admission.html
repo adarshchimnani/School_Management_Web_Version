@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="admission.css" >
+	
+<body> 
+		<div class="regform"><h1> Admission Form</h1></div>
+		<div class="main">
+		   <form action="admission_connection.php" method="post">
+				<div class="name">
+				<label class="name">Name</label>
+				<input class="firstname" id="first_name" name="first_name" type="text" name="first_name" required><br>
+				<label class="firstlabel">first name</label>
+				<input class="lastname" id="last_name" name="last_name" type="text" name="last_name" required><br>
+				<label class="lastlabel">last name</label>
+		    </div>
+			<br>
+			<div class ="gender">
+			<label>Gender:</label>
+			<select name="gender" id="options" required>
+				<option value="Male"> Male </option>
+				<option value="Female"> Female </option>
+			</select>
+			</br>
+			</div>
+			
+			<div class="dob"  >
+			<label>DOB:</label>
+			<input type="date" id="options" name="dob" required><br>
+			</div>
+			
+			<br>
+			<div class="class">
+			<label>Class:</label>
+			<select name="class" id="options" required>
+				<option value="KG"> KG </option>
+				<option value="ONE"> ONE  </option>
+				<option value="TWO"> TWO </option>
+				<option value="THREE">  THREE </option>
+				<option value="FOUR">  FOUR </option>
+				<option value="FIVE">  FIVE </option>
+				<option value="SIX">  SIX </option>
+				<option value="SEVEN">  SEVEN </option>
+				<option value="EIGHT">  EIGHT </option>
+			</select>
+			</br>
+			</div>
+			
+			<div class="Previous_School">			
+			  <h4 class="LAS">Previous School</h4>	
+			  <input class="last_school" type="text" name="previous_school" id="previous_school" required><br>
+			</div>
+
+			<div class="Father_Name">
+			  <h4 class="name">S/O or D/O</h4>	
+			  <input class="fatherName" type="text" name="father_name" id="father_name" required><br>
+			</div>
+			
+			  <h4 class="name">CNIC</h4>	
+			  <input class="CNIC_1" type="text" name="CNIC" id="CNIC" required>
+			  
+			
+			<h4 class="name"> Phone</h4>	
+			  <input class="phone" type="text" name="phone" id="phone" required>
+			  
+			  <h4 class="name">Email</h4>	
+			  <input class="email" type="text" name="email" id="email" required>
+			  
+			  <h4 class="name"> Address</h4>	
+			  <input class="address" type="text" name="address" id="address" required>
+			
+			<button type="submit"> Register</button>
+			 <a class="cancel" href="http://localhost/School_Management_Database_Project/Main Menu/main menu.html">Cancel</a>
+			<br>
+			<div class="Trem-year">
+			<label>Term Year:</label>
+			<select name="term_year" id="options" required>
+				<option value="2019/2020"> 2019/2020 </option>
+				<option value="2020/2021"> 2020/2021  </option>
+				<option value="2021/2022"> 2021/2022 </option>
+				<option value="2022/2023">  2022/2023 </option>
+				<option value="2023/2024">  2023/2024 </option>
+				<option value="2024/2025">  2024/2025 </option>
+			</select>
+			</div>
+			</br>
+			 
+			  
+			  
+			  
+			  
+			</form>
+		  
+</body>
+</head>
+</html>

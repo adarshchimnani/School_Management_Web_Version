@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background: url('background.jpg');
+		background-position:center;
+		background-size: cover;
+		font-family: arial;
+		margin-top: 150px;
+	}
+	.result_search{
+		width: 300px;
+		background-color:rgb(0,0,0,0.6);
+		margin: auto;
+		color: #FFFFFF;
+		padding:10px 0px 10px 0px;
+		text-align:center;
+		border-radius: 15px 15px 0px 0px;
+	}    
+	.main{
+			background-color:rgb(0,0,0,0.5);
+			width: 300px;
+			margin:auto;
+	}
+	form{
+		padding:5px;
+	}
+	.id{
+		top:-100px;
+		margin-left:5px;
+		margin-top:-250px;
+		width:150px;
+		color:white;
+		font-size:18px;
+		font-weight:700;
+	}
+	.Std_id{
+		position: relative;
+		left:130px;
+		top:27px;
+		height:22px;
+		width:75px;
+		border-radius:10px;
+		padding:0 22px;
+		font-size:16px;
+		color:#555;
+	}
+	.teacher{
+		position: relative;
+		left:130px;
+		top:27px;
+		height:22px;
+		width:75px;
+		border-radius:10px;
+		padding:0 22px;
+		font-size:16px;
+		color:#555;
+	}
+	.class{
+		top:-90px;
+		margin-left:-30px;
+		margin-top:-200px;
+		width:200px;
+		color:white;
+		line-height:20px;
+		font-size:20px;
+		font-weight:700;
+	}
+	
+	.class_id{
+	position:relative;
+	   left:60px;
+	   top:-35px;
+	   line-height:50x;
+	   border-radius:10px;
+	   padding: 0 22px;
+	   font-size:70px;
+	}
+	.session{
+		top:-90px;
+		margin-left:-30px;
+		
+		width:200px;
+		color:white;
+		line-height:20px;
+		font-size:20px;
+		font-weight:700;
+	}
+	
+	.session-id{
+	position:relative;
+	   left:40px;
+	   top:-75px;
+	   line-height:50x;
+	   border-radius:10px;
+	   padding: 0 22px;
+	   font-size:70px;
+	}
+	.term{
+		top:-90px;
+		margin-left:-30px;
+		width:200px;
+		color:white;
+		line-height:20px;
+		font-size:20px;
+		font-weight:700;
+	}
+	
+	.term-id{
+	position:relative;
+	   left:70px;
+	   top:-95px;
+	   line-height:50x;
+	   border-radius:10px;
+	   padding: 0 22px;
+	   font-size:70px;
+	}
+	button{
+			background-color:#3BAF9F;
+			display:block;
+			margin:-50px 0px 0px 20px;
+			text-align:center;
+			border-radius:12px;
+			border:2px solid #366473;
+			padding:12px 99px;
+			outline:none;
+			color:white;
+			cursor:pointer;
+			transition:0.25px;
+			
+	}
+	button:hover{
+	background-color:#5390F5;
+	}
+	
+	
+	
+	
+	
+	</style>
+	
+<body> 
+		 
+		<div class="result_search"><h1>Add New Subject</h1></div>
+		<div class="main">
+		
+		   <form action="result_connection.php" method="post">
+		   <div class="name">
+				<input class="Std_id" type="text" name="subject" id="s_id"><br>
+				<label class="id">Subject Name:</label>
+				
+			</div>
+			<br>
+			
+			<div class="name">
+			<input class="teacher" type="text" name="t_id" ><br>
+				<label class="id">Teacher ID:</label>
+			</div>
+			
+			<div class ="class_id">
+			<label class="class">Class:</label>
+			<select name="class" id="class">
+				<option selected hidden value=""> </option>
+				<option value="KG  "> KG   </option>
+				<option value="ONE  "> ONE    </option>
+				<option value="TWO "> TWO   </option>
+				<option value="THREE ">  THREE   </option>
+				<option value="FOUR  ">  FOUR   </option>
+				<option value="FIVE  ">  FIVE   </option>
+				<option value="SIX  ">  SIX     </option>
+				<option value="SEVEN ">  SEVEN   </option>
+				<option value="EIGHT  ">  EIGHT    </option>
+			</select>
+			</br>
+			</div>
+			
+			
+			
+			<br>
+			
+			
+			<div class="term-id">
+			<label class="session">Term:</label>
+			<select name="term" id="term">
+				<option selected hidden value=""> </option>
+				<option value="2019/2020"> 2019/2020 </option>
+				<option value="2020/2021"> 2020/2021  </option>
+				<option value="2021/2022"> 2021/2022 </option>
+				<option value="2022/2023">  2022/2023 </option>
+				<option value="2023/2024">  2023/2024 </option>
+				<option value="2024/2025">  2024/2025 </option>
+				
+			
+			</select>
+			</div>
+			
+			
+			 
+			
+			<button type="submit"> confrim </button>
+			
+			<br>
+		</form>
+		  
+</body>
+</head>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="employee.css" >
+	
+	
+<body> 
+		<div class="regform"><h1> Employee Form</h1></div>
+		<div class="main">
+		   <form action="emp_connection.php" method="post">
+				
+			<div class="name">
+				<h4 class="name-l"> Name </h4>
+				<input class="firstname" type="text" name="first_name" required><br>
+				<label class="firstlabel">first name</label>
+				<input class="lastname" type="text" name="last_name" required><br>
+				<label class="lastlabel">last name</label>
+		    </div>
+			<br>
+			<div class ="gender">
+			<label>Gender:</label>
+			<select name="gender" id="options" required>
+				<option selected hidden value=""> </option>
+				<option value="Male"> Male </option>
+				<option value="Female"> Female </option>
+			</select>
+			</br>
+			</div>
+			
+			<div class="join_date"  >
+			<label>Joining Date:</label>
+			<input type="date" id="options" name="join_date" required><br>
+			</div>
+			
+			<br>
+			<div class="designation">
+			<label>Designation:</label>
+			<select name="designation" required>
+				<option selected hidden></option>
+				<option value="Principal"> Principal </option>
+				<option value="teacher"> Teacher  </option>
+				<option value="clerk"> Clerk </option>
+				<option value="peon">  Peon </option>
+			</select>
+			</br>
+			</div>
+			
+			
+			  <h4 class="CNIC" >CNIC</h4>	
+			  <input class="CNIC_1" type="text" name="CNIC"  required>
+			  
+			  <h4 class="Salary-l" >Salary</h4>	
+			  <input class="salary" type="text" name="salary" required>
+			
+			<h4 class="name" > Phone</h4>	
+			  <input class="phone" type="text" name="phone" required>
+			  
+			  <h4 class="name"l>Email</h4>	
+			  <input class="email" type="text" name="email" required>
+			  
+			  <h4 class="name" > Address</h4>	
+			  <input class="address" type="text" name="address" required>
+			
+			<button type="submit" class="confirm" > Confrim </button>
+			<a class="cancel" href="http://localhost/School_Management_Database_Project/Main Menu/main menu.html">Cancel</a>
+			<br>
+		</form>
+		  
+</body>
+</head>
+</html>

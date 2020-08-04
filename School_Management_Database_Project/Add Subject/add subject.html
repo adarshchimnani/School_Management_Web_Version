@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background: url('background.jpg');
+		background-position:center;
+		background-size: cover;
+		font-family: arial;
+		margin-top: 150px;
+	}
+	.result_search{
+		width: 300px;
+		background-color:rgb(0,0,0,0.6);
+		margin: auto;
+		color: #FFFFFF;
+		padding:10px 0px 10px 0px;
+		text-align:center;
+		border-radius: 15px 15px 0px 0px;
+	}    
+	.main{
+			background-color:rgb(0,0,0,0.5);
+			width: 300px;
+			margin:auto;
+	}
+	form{
+		padding:5px;
+	}
+	.Std_id{
+	  margin-left:145px;
+		margin-top:-100px;
+		
+		width:100px;
+		color:black;
+		font-size:18.5px;
+		font-weight:700;
+	}
+	.Stdid{
+	 position: relative;
+		left:20px;
+		top:-30px;
+		line-height:40px;
+		width:350px;
+		border-radius:6px;
+		padding:0 17px;
+		font-size:16px;
+		color:#fff;
+	}
+	.teacherid{
+		margin-left:8px;
+		margin-top:-330px;
+		width:100px;
+		color:black;
+		font-size:18.5px;
+		font-weight:700;
+	}
+	.tid{
+	  position: relative;
+		left:20px;
+		top:-40px;
+		line-height:40px;
+		width:350px;
+		border-radius:6px;
+		padding:0 17px;
+		font-size:16px;
+		color:#fff;
+	
+	}
+	.TOTALMARKS{
+		margin-left:27px;
+		margin-top:-330px;
+		width:100px;
+		color:black;
+		font-size:18.5px;
+		font-weight:700;
+	}
+	.Tm{
+	  position: relative;
+		left:20px;
+		top:-40px;
+		line-height:40px;
+		width:350px;
+		border-radius:6px;
+		padding:0 17px;
+		font-size:16px;
+		color:#fff;
+	
+	}
+	
+	
+	.class_id{
+	position:relative;
+	   left:60px;
+	   top:-70px;
+	   line-height:50x;
+	   border-radius:10px;
+	   padding: 0 22px;
+	   font-size:70px;
+	}
+	.Trem-year{
+position:relative;
+	   left:60px;
+	   top:-100px;
+	   line-height:60px;
+	   border-radius:10px;
+	   padding: 0 22px;
+	   font-size:70px;
+	}
+	button{
+			background-color:#3BAF9F;
+			display:block;
+			margin:20px 0px 0px 20px;
+			text-align:center;
+			top:120px;
+			border-radius:12px;
+			border:2px solid #366473;
+			padding:12px 99px;
+			outline:none;
+			color:white;
+			cursor:pointer;
+			transition:0.25px;
+			
+	}
+	button:hover{
+	background-color:#5390F5;
+	}
+	
+	
+	
+	
+	
+	</style>
+	
+<body> 
+		<div class="result_search"><h1> Add New Subject</h1></div>
+		<div class="main">
+		   <form action="add_subject.php" method="post">
+		   
+		   
+		   <div class="name">
+				
+				<input class="Std_id" type="text" name="Std_id"><br>
+				<label class="Stdid">Subject name</label>
+				
+				<input class="teacherid" type="text" name="t_id"><br>
+				<label class="tid">Teacher ID</label>
+				
+				<input class="TOTALMARKS" type="text" name="marks"><br>
+				<label class="Tm">Total Marks</label>
+			</div>
+			<br>
+			
+			<div class ="class_id">
+			<select name="class">
+				<option> class_id </option>
+				<option value="KG  "> KG   </option>
+				<option value="ONE  "> ONE    </option>
+				<option value="TWO "> TWO   </option>
+				<option value="THREE ">  THREE   </option>
+				<option value="FOUR  ">  FOUR   </option>
+				<option value="FIVE  ">  FIVE   </option>
+				<option value="SIX  ">  SIX     </option>
+				<option value="SEVEN ">  SEVEN   </option>
+				<option value="EIGHT  ">  EIGHT    </option>
+			</select>
+		
+			</div>
+		
+			<div class="class_id">
+			<select name="year">
+				<option> Term-year </option>
+				<option value="2019/2020"> 2019/2020 </option>
+				<option value="2020/2021"> 2020/2021  </option>
+				<option value="2021/2022"> 2021/2022 </option>
+				<option value="2022/2023">  2022/2023 </option>
+				<option value="2023/2024">  2023/2024 </option>
+				<option value="2024/2025">  2024/2025 </option>
+				
+			
+			</select>
+			</div>
+			
+			
+			 
+			
+			<button type="submit"> confrim </button>
+			
+			<br>
+		</form>
+		</div>
+		  
+</body>
+</head>
+</html>
